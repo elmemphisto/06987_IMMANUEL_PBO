@@ -1,6 +1,6 @@
 package npm06987_hitungkecepatan;
 import java.util.Scanner;
-import static npm06987_hitungkecepatan.NPM06987_Hitungkecepatan.hasila;
+import static npm06987_hitungkecepatan.NPM06987_Hitungkecepatan.hasil;
 
 public class NPM06987_Hitungkecepatan {
       static double v1;
@@ -11,7 +11,7 @@ public class NPM06987_Hitungkecepatan {
        static char yt='y';
        static double hasila(double v1, double v2, double t1, double t2 ){
           double hasila = (v2-v1)/(t2-t1);
-           return hasila;
+           return hasil;
        }
        
       //@SuppressWarnings("empty-statement")
@@ -45,7 +45,7 @@ public class NPM06987_Hitungkecepatan {
                 break;
                 
                 case 2:
-                //double hasila = (v2-v1)/(t2-t1);
+                //double hasila = (v2-v1)/(t2-t1); LL
                 System.out.println("Hasil "+hasila(v2,v1,t2,t1));
                 break;
         }
