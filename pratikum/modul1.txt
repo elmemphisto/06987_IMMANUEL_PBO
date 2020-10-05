@@ -1,0 +1,64 @@
+package npm06987_hitungkecepatan;
+import java.util.Scanner;
+import static npm06987_hitungkecepatan.NPM06987_Hitungkecepatan.hasila;
+
+public class NPM06987_Hitungkecepatan {
+      static double v1;
+       static double v2;
+       static double t1;
+       static double t2;
+       static int pilihan;
+       static char yt='y';
+       static double hasila(double v1, double v2, double t1, double t2 ){
+          double hasila = (v2-v1)/(t2-t1);
+           return hasila;
+       }
+       
+      //@SuppressWarnings("empty-statement")
+    public static void main(String[] args) {	
+        char ulang;
+          ulang = ' ';
+       Scanner input = new Scanner(System.in);
+       do{
+        System.out.println("Hitung Kecepatan");
+        System.out.println("1.Masukan inputan");
+        System.out.println("2.Hasil");
+        System.out.println("Masukan Kembali");
+        pilihan = input.nextInt();
+        
+        System.out.println();
+        kembali:
+        switch (pilihan)
+        {
+                case 1:   
+                System.out.print("Masukan V2: ");
+                v2 = input.nextDouble();
+            
+                System.out.print("Masukan V1: ");
+                v1 = input.nextDouble();
+            
+                System.out.print("Masukan T2: ");
+                t2 = input.nextDouble();
+            
+                System.out.print("Masukan T1: ");
+                t1 = input.nextDouble();
+                break;
+                
+                case 2:
+                //double hasila = (v2-v1)/(t2-t1);
+                System.out.println("Hasil "+hasila(v2,v1,t2,t1));
+                break;
+        }
+        System.out.println("apakah ingin mengulang ? y/n = ") ;
+        ulang =input.next().charAt (0);}
+      while (ulang=='y');
+       }
+       }
+
+        
+       
+       
+       
+       
+       
+     
