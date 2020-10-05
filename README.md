@@ -2,7 +2,7 @@
 Pemrograman Berbasis Objek
 Dosen : Nanang F. Rozi
 
-Nama : Aldo Bimantara Putra Perdana
+Nama : Immanuel C.C.P
 
 NPM : 06.2018.1.06987
 
