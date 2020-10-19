@@ -6,7 +6,6 @@ Aplikasi Manajemen data Hewan
 + pemakan : string
 + cara repoduksi : string
 + habitat : string 
-
 -----------------------
 + cara hidup : (void)
 + hidup di negara : (void)
