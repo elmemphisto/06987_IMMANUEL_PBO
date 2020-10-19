@@ -1,0 +1,12 @@
+Aplikasi Manajemen data Hewan
+
+[Hewan]
++ nama : string
++ jenis hwan : string
++ pemakan : string
++ cara repoduksi : string
++ habitat : string 
+
+-----------------------
++ cara hidup : (void)
++ hidup di negara : (void)
